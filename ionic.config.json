@@ -1,0 +1,7 @@
+{
+  "name": "devdacticFireList",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

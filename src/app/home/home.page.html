@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Ionic Firelist
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input [(ngModel)]="userdata.email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">First Name</ion-label>
+      <ion-input [(ngModel)]="userdata.first_name"></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" (click)="subscribeDirectly()">
+      Subscribe with Callable function</ion-button
+    >
+
+    <ion-button expand="full" (click)="subscribeTriggered()">
+      Subscribe with DB trigger</ion-button
+    >
+  </div>
+</ion-content>
